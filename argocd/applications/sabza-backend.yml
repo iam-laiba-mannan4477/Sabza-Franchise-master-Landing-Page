@@ -6,12 +6,12 @@ metadata:
 spec:
   project: default
   source:
-    repoURL: https://github.com/iam-laiba-mannan4477/Sabza-Franchise-master-Landing-Page.git
+    repoURL: https://github.com/ziconcloudnew/Sabza-Franchise-master-Landing-Page.git
     targetRevision: main
     path: backend/kubernetes
   destination:
     server: https://kubernetes.default.svc
-    namespace: sabza-landingpage-2
+    namespace: sabza-namespace
   syncPolicy:
     automated:
       prune: true
