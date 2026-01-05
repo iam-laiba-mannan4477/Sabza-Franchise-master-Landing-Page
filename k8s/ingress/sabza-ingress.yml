@@ -8,7 +8,7 @@ metadata:
 spec:
   ingressClassName: nginx
   rules:
-  - host: sabza.local          # <--- Added this line for unique host
+  - host: sabza.local          # <--- Added this line for unique hostt
     http:
       paths:
       - path: /api
